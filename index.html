@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>クリエイター向けAIツール利用料サポートプログラム（試験運用）</title>
-  <meta name="description" content="Ninja DAO／CryptoNinjaの二次創作を応援するために、AIツールの利用料を最大2万円までサポートする試験プログラムの募集ページです。" />
+  <title>クリエイター向けAIツール利用料サポートプログラム（試験運用）｜募集は終了しました</title>
+  <meta name="description" content="Ninja DAO／CryptoNinjaの二次創作を応援するために、AIツールの利用料を最大2万円までサポートする試験プログラムの募集ページ（募集終了）。" />
   <style>
     :root {
       --bg: #0b0c10;
@@ -25,9 +25,10 @@
     header.hero { padding: 56px 20px 40px; background: radial-gradient(1200px 500px at 50% -200px, rgba(79,70,229,.35), transparent), linear-gradient(180deg, #0c0f16 0%, #0a0b0f 100%); border-bottom: 1px solid #1f2430; text-align: center; }
     .hero h1 { margin: 0 0 12px; font-size: clamp(22px, 4.5vw, 36px); letter-spacing: .02em; }
     .hero p.lead { margin: 0 auto 20px; max-width: 820px; color: var(--muted); font-size: clamp(14px, 2.2vw, 18px); }
+
+    .status { display:inline-block; padding:8px 12px; border-radius:999px; background:#0f172a; color:#fca5a5; border:1px solid #1f2430; font-weight:800; }
     .cta { display: inline-block; background: linear-gradient(90deg, var(--brand), var(--accent)); color: white; padding: 14px 22px; border-radius: 12px; font-weight: 700; letter-spacing: .02em; box-shadow: 0 6px 18px rgba(79,70,229,.35); transition: transform .05s ease, filter .2s ease; }
-    .cta:hover { filter: brightness(1.1); text-decoration: none; }
-    .cta:active { transform: translateY(1px); }
+    .cta[aria-disabled="true"] { opacity:.5; cursor:not-allowed; filter:grayscale(40%); }
 
     main { max-width: 920px; margin: 0 auto; padding: 24px 16px 64px; }
     section { background: var(--panel); border: 1px solid #1f2430; border-radius: 16px; padding: 22px; margin-top: 18px; }
@@ -50,10 +51,12 @@
     <div class="pill">試験運用</div>
     <h1>クリエイター向けAIツール利用料サポートプログラム</h1>
     <p class="lead">Ninja DAO／CryptoNinjaの二次創作を応援。AIツールの利用料を <b>最大2万円</b> サポートします。<br/>作品公開とノウハウ共有で、コミュニティの創作を一緒に盛り上げよう！</p>
-    <p>
-      <a class="cta" href="https://forms.gle/xANnCTCmQZvZRpB86" target="_blank" rel="noopener">応募はこちら</a>
-    </p>
-    <div class="meta">募集期間：<b>9/10〜9/25</b> ／ 選定：<b>9/30</b> ／ 制作・発表：<b>10/1〜10/31</b> ／ 精算締切：<b>11/10</b></div>
+
+    <!-- 募集終了ステータス -->
+    <div class="status">📌 募集は終了しました</div>
+
+    <!-- 募集期間など（終了表記を追加） -->
+    <div class="meta" style="margin-top:12px">募集期間：<b>9/10〜9/25（終了）</b> ／ 選定：<b>9/30</b> ／ 制作・発表：<b>10/1〜10/31</b> ／ 精算締切：<b>11/10</b></div>
   </header>
 
   <main>
@@ -89,7 +92,7 @@
     <section id="schedule">
       <h2>スケジュール</h2>
       <ul>
-        <li>募集期間：<b>9/10〜9/25</b></li>
+        <li>募集期間：<b>9/10〜9/25（終了）</b></li>
         <li>選定：<b>9/30（イケハヤさん）</b></li>
         <li>制作・発表期間：<b>10/1〜10/31</b></li>
         <li>精算締切：<b>11/10</b></li>
@@ -107,8 +110,7 @@
 
     <section id="apply">
       <h2>応募</h2>
-      <p>下記のフォームからご応募ください。募集締切は<b>9/25</b>です。内容を確認のうえ、選定（9/30）を行います。</p>
-      <p><a class="cta" href="https://forms.gle/xANnCTCmQZvZRpB86" target="_blank" rel="noopener">応募はこちら</a></p>
+      <p><span class="status">募集は終了しました（フォームは閉鎖済み）</span></p>
     </section>
 
     <section id="notes">
@@ -120,7 +122,8 @@
         <li>成果物を公開できなかった場合は精算できません</li>
         <li>権利を侵害するもの、不適切な内容の作品は対象外です</li>
         <li>不明点は <a href="https://discordapp.com/channels/1000922162741379086/1407890128390586460" target="_blank" rel="noopener">NinjaDAO Discord内「AIツール利用料の補助」チャンネル</a> にてお問い合わせください</li>
-      </ul></section>
+      </ul>
+    </section>
 
     <section id="faq">
       <h2>FAQ（よくある質問）</h2>
